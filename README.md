@@ -53,8 +53,16 @@ To get a list id:
 The script configuration is simple. Just setup the AWS and Trello credentials in the script.
 
 
-# USAGE
+# Usage
 
 Once the script is configured it should be run via cron every hour. To execute errorlog.php every 1 hour use the following command:
 
 * crontab -e 00 * * * * /path/to/php /path/to/RJSErrorLog.php
+
+# Credits
+
+Initial script contributors at RJS, Kolkata:
+
+* R.Chaudhury  [Development]
+* T.Chatterjee [Development]
+* R.Agarwalla  [Concept & Flow]
